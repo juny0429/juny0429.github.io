@@ -26,8 +26,6 @@ function Main() {
     img.src = mainImage;
   }, []);
 
-  console.log('mousePosition.x', mousePosition.x);
-
   const imageStyle = {
     position: 'relative',
     top: mousePosition.y - 150,

@@ -1,6 +1,8 @@
 .skillMain {
     background-color: #181818;
     height: 90vh;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .logoImg {
@@ -19,9 +21,10 @@
     width: 100%;
 }
 
-.skillBlock img:hover {
-    transform: rotate(45deg);
-    animation: rotate 1s infinite;
+.bounceLogo {
+    display: inline-block;
+    animation: rotate 1s ease-in-out 1;
+    animation-iteration-count: 1; 
   }
   
   @keyframes rotate {
@@ -63,7 +66,11 @@
 }
 
 .logoTitle {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 500;
     letter-spacing: 2px;
+}
+
+.logoContant {
+    font-size: 18px;
 }

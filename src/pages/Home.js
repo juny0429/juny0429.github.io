@@ -69,8 +69,30 @@ function Home() {
     }, 1000);
     };
 
+    /* 바운스 글자 배열에 담기 */
     const textArrayTop = ['P','J','Y'];
     const textArrayBottom = ['P','O','R','T','F','O','L','I','O'];
+
+    /* 화면 이동 핸들러 */
+    const onClickHomeHandler = () => {
+        window.location.href = "/home";
+    }
+
+    const onClickAboutHandler = () => {
+        window.location.href = "/about";
+    }
+
+    const onClickSkillsHandler = () => {
+        window.location.href = "/skills";
+    }
+    
+    const onClickProjectHandler = () => {
+        window.location.href = "/project";
+    }
+
+    const onClickcontactHandler = () => {
+        window.location.href = "/contact";
+    }
 
     return (
         <div className={`${(darkModeClass === 0) ? darkMode.darkMode : darkMode.whiteMode}`}>
@@ -94,24 +116,24 @@ function Home() {
 
             <div className={headerStyle.navMain}>
                 <div className={headerStyle.navBlock}>
-                    <span className={headerStyle.navText}>Home</span>
+                    <span className={headerStyle.navText} onClick={onClickHomeHandler}>Home</span>
                     <div className={headerStyle.underLine}></div>
                 </div>
                 <div className={headerStyle.navBlock}>
-                    <span className={headerStyle.navText}>About</span>
+                    <span className={headerStyle.navText}  onClick={onClickAboutHandler}>About</span>
                     <div className={headerStyle.underLine}></div>
                 </div>
                 <div className={headerStyle.navBlock}>
-                    <span className={headerStyle.navText}>Skills</span>
+                    <span className={headerStyle.navText}  onClick={onClickSkillsHandler}>Skills</span>
                     <div className={headerStyle.underLine}></div>
                 </div>
-                    <div className={headerStyle.navBlock}>
-                    <span className={headerStyle.navText}>Project</span>
-                <div className={headerStyle.underLine}></div>
+                <div className={headerStyle.navBlock}>
+                    <span className={headerStyle.navText}  onClick={onClickProjectHandler}>Project</span>
+                    <div className={headerStyle.underLine}></div>
                 </div>
-                    <div className={headerStyle.navBlock}>
-                    <span className={headerStyle.navText}>Contact</span>
-                <div className={headerStyle.underLine}></div>
+                <div className={headerStyle.navBlock}>
+                    <span className={headerStyle.navText}  onClick={onClickcontactHandler}>Contact</span>
+                    <div className={headerStyle.underLine}></div>
                 </div>
             </div>
 
