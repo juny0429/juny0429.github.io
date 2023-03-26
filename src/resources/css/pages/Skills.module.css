@@ -1,0 +1,69 @@
+.skillMain {
+    background-color: #181818;
+    height: 90vh;
+}
+
+.logoImg {
+    width: 200px;
+    border-radius: 10%;
+}
+
+.logoImg2 {
+    height: 60%;
+}
+
+.skillBlock {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.skillBlock img:hover {
+    transform: rotate(45deg);
+    animation: rotate 1s infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    15% {
+      transform: rotate(50deg);
+    }
+    30% {
+        transform: rotate(-50deg);
+    }
+    45% {
+        transform: rotate(50deg);
+    }
+    50% {
+        transform: rotate(-50deg);
+    }
+    60% {
+    transform: rotate(20deg);
+    }
+    70% {
+        transform: rotate(-20deg);
+    }
+    80% {
+        transform: rotate(10deg);
+    }
+    90% {
+        transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+.skillTopBox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoTitle {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
