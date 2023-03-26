@@ -1,0 +1,53 @@
+.navMain {
+    padding-left: 65%;
+    padding-right: 5%;
+    background-color: #181818;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBlock {
+    float: right;
+}
+
+.navText {
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.navText:hover {
+    color: #27826C;
+}
+
+.underLine {
+    background-color: #27826C;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+    height: 3px;
+}
+
+.switchImgDiv {
+    float: left;
+    position: absolute;
+}
+
+.switchImg {
+    width: 70px;
+    margin-top: 70%;
+    margin-left: 70%;
+}
+  
+header.darkMode {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  header.whiteMode {
+    background-color: #fff;
+    color: #000;
+  }
