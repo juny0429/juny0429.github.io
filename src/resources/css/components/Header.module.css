@@ -14,9 +14,9 @@
 
 .navText {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 .navText:hover {
@@ -53,6 +53,6 @@
 }
 
 .bulbImg {
-    width: 150px;
+    width: 80px;
     margin-left: 100vh;
 }

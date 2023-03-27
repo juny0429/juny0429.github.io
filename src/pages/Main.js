@@ -36,7 +36,7 @@ function Main() {
     zIndex: 99999,
     backgroundImage: `url(${mainImage})`,
     backgroundPosition: `${mousePosition.x + 200}px ${-(mousePosition.y - window.innerHeight - 300)}px`,
-    backgroundSize: '1200%',
+    backgroundSize: '650%',
     opacity: showImage ? 1 : 0,
     transform: 'scaleX(-1)',
     filter: 'blur(1px)',
