@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="/pjy-portfolio">
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/home" element={<Home />} />
