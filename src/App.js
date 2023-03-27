@@ -9,14 +9,14 @@ import Contact from './pages/Contact';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path={process.env.PUBLIC_URL + '/'} element={<Main/>} />
-        <Route path={process.env.PUBLIC_URL + '/home/'} element={<Home/>}/>
-        <Route path={process.env.PUBLIC_URL + '/'} element={<Layout/>}>
-          <Route path={process.env.PUBLIC_URL + '/skills/'} element={<Skills/>}/> 
-          <Route path={process.env.PUBLIC_URL + '/about/'} element={<About/>}/> 
-          <Route path={process.env.PUBLIC_URL + '/contact/'} element={<Contact/>}/> 
+        <Route path="/" element={<Main/>} />
+        <Route path="/home" element={<Home/>}/>
+        <Route path="/" element={<Layout/>}>
+          <Route path="/skills" element={<Skills/>}/> 
+          <Route path="/about" element={<About/>}/> 
+          <Route path="contact" element={<Contact/>}/> 
         </Route>
       </Routes>
     </BrowserRouter>
