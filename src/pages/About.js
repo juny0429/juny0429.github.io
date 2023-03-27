@@ -66,7 +66,7 @@ function About() {
                         <span className={aboutStyle.aboutContantTextLine2}>공유 하는 것,</span>
                     </div>
                     <div className={aboutStyle.aboutBottomText}>
-                        <p>제가 생각하는 개발자는 함께 협력하며 지식을 공유하고 발전시키는 것이 중요합니다.</p>
+                        <p>개발자란 함께 협력하며 지식을 공유하고 발전시키는 것이 중요하다고 생각합니다.</p>
                         <p>프로젝트 진행 과정을 통해 커뮤니케이션 능력을 기르고,</p>
                         <p>적극적인 자세로 문제를 해결하며 발전을 위해 노력하고 있습니다. </p>
                         <p>모든 사람들에게 함께 일하는 즐거움을 느낄 수 있는 사람으로 기억되고 싶습니다.</p>
