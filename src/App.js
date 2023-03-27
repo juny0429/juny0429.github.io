@@ -11,12 +11,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={'https://juny0429.github.io/pjy-portfolio/'} element={<Main/>} />
-        <Route path={'https://juny0429.github.io/pjy-portfolio/home/'} element={<Home/>}/>
-        <Route path={'https://juny0429.github.io/pjy-portfolio/'} element={<Layout/>}>
-          <Route path={'https://juny0429.github.io/pjy-portfolio/skills/'} element={<Skills/>}/> 
-          <Route path={'https://juny0429.github.io/pjy-portfolio/about/'} element={<About/>}/> 
-          <Route path={'https://juny0429.github.io/pjy-portfolio/contact/'} element={<Contact/>}/> 
+        <Route path={process.env.PUBLIC_URL + '/'} element={<Main/>} />
+        <Route path={process.env.PUBLIC_URL + '/home/'} element={<Home/>}/>
+        <Route path={process.env.PUBLIC_URL + '/'} element={<Layout/>}>
+          <Route path={process.env.PUBLIC_URL + '/skills/'} element={<Skills/>}/> 
+          <Route path={process.env.PUBLIC_URL + '/about/'} element={<About/>}/> 
+          <Route path={process.env.PUBLIC_URL + '/contact/'} element={<Contact/>}/> 
         </Route>
       </Routes>
     </BrowserRouter>
