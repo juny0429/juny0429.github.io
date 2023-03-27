@@ -1,0 +1,14 @@
+.mainDiv {
+    position: relative;
+    background-color: #181818;
+    height: 100vh;
+}
+
+.mainText {
+    position: absolute;
+    color: white;
+    font-size: 280px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 8%;
+}
