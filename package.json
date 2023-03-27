@@ -1,10 +1,11 @@
 {
-  "homepage": "https://juny0429.github.io/",
+  "homepage": "https://juny0429.github.io/junyoung-port",
   "name": "final-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
+    "gh-pages": "^5.0.0",
     "material-react-table": "^1.8.0",
     "moment": "^2.29.4",
     "moment-jalaali": "^0.9.6",
@@ -37,7 +38,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
