@@ -3,7 +3,8 @@ import headerStyle from '../resources/css/components/Header.module.css';
 import darkMode from '../resources/css/components/DarkMode.module.css';
 
 import swtichWhiteImg from '../resources/images/switch_white.png';
-import swtichDarkImg from '../resources/images/switch_dark.png';
+import swtichDarkOffImg from '../resources/images/switch_dark_off.png';
+import swtichDarkOnImg from '../resources/images/switch_dark_on.png';
 import light from '../resources/images/light.png';
 import brokenLight from '../resources/images/brokenLight.png';
 
@@ -109,7 +110,7 @@ function Home() {
                 <img 
                     className={headerStyle.switchImg} 
                     onClick={handleToggleDarkMode} 
-                    src={(darkModeClass === 0) ? swtichDarkImg : swtichWhiteImg} 
+                    src={(darkModeClass === 0 && bulbBroken === 0) ? swtichDarkOffImg :((darkModeClass === 0 && bulbBroken === 1) ? swtichDarkOnImg : swtichWhiteImg)} 
                     alt="스위치 이미지"
                 />
             </div>

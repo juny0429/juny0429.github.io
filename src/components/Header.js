@@ -1,7 +1,4 @@
 import headerStyle from '../resources/css/components/Header.module.css';
-import darkMode from '../resources/css/components/DarkMode.module.css';
-import swtichWhiteImg from '../resources/images/switch_white.png';
-import swtichDarkImg from '../resources/images/switch_dark.png';
 
 import { useState } from 'react';
 import React, { useEffect } from 'react';
