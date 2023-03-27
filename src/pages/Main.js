@@ -44,7 +44,7 @@ function Main() {
   };
 
   const onClickHandler = () => {
-    window.location.href = "/home";
+    window.location.href = "/pjy-portfolio/home";
   }
 
   return (
