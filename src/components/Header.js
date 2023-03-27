@@ -9,23 +9,23 @@ import React, { useEffect } from 'react';
 function Header() {
   
   const onClickHomeHandler = () => {
-    window.location.href = "/home";
+    window.location.href = "/pjy-portfolio/home";
   }
 
   const onClickAboutHandler = () => {
-    window.location.href = "/about";
+    window.location.href = "/pjy-portfolio/about";
   }
 
   const onClickSkillsHandler = () => {
-    window.location.href = "/skills";
+    window.location.href = "/pjy-portfolio/skills";
   }
 
   const onClickProjectHandler = () => {
-    window.location.href = "/project";
+    window.location.href = "/pjy-portfolio/project";
   }
   
   const onClickcontactHandler = () => {
-    window.location.href = "/contact";
+    window.location.href = "/pjy-portfolio/contact";
   }
 
   return (
