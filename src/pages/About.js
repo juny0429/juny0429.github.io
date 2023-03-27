@@ -6,8 +6,7 @@ function About() {
 
     return (
         <div className={aboutStyle.container}>
-            <div className={aboutStyle.triangle}>
-                
+            <div className={aboutStyle.triangle}> 
             <div className={aboutStyle.square2}></div>
             </div>
         </div>
