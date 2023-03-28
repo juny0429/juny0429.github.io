@@ -2,3 +2,34 @@
     background-color: #181818;
     height: 90vh;
 }
+
+.projectIconPackage {
+    display: flex;
+    justify-content: space-around;
+    padding: 15% 5% 15% 5%;
+}
+
+/* main icon */
+.projectIconPackage img {
+    width: 10%;
+}
+
+.projectChoiceText {
+    text-align: center;
+}
+
+.projectIconSizeUp {
+    display: inline-block;
+    animation: sizeUp 0.3s ease-in-out forwards;
+    animation-iteration-count: 1; 
+}
+
+@keyframes sizeUp {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+  

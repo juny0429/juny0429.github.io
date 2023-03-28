@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Project from './pages/Project';
+import ProjectScroll from './pages/ProjectScroll';
 import Contact from './pages/Contact';
 
 function App() {
@@ -16,9 +17,10 @@ function App() {
         <Route path="/" Component={Layout}>
           <Route path="/about" Component={About} />
           <Route path="/skills" Component={Skills} />
-          <Route path='/project' Component={Project} />
+          <Route path="/project" Component={Project} />
           <Route path="/contact" Component={Contact} />
         </Route>
+        <Route path="/project/detail" Component={ProjectScroll} />
       </Routes>
     </BrowserRouter>
   );
