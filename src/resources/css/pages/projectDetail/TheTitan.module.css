@@ -1,0 +1,72 @@
+.theTitanMain {
+}
+
+.projectDetailTitle {
+    margin-top: 1%;
+    margin-left: 0.5%;
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+    position: absolute;
+    top: -450px;
+}
+
+.theTitanGif {
+    margin-left: 300vh;
+    width: 10%;
+    height: 100vh;
+    display: flex;
+}
+
+.theTitanGif img {
+    margin-top: 20%;
+    height: 60%;
+    box-shadow: 0 0 10px 0 #1818189a;
+    background-color: #74747400;
+}
+
+.theTitanBox {
+    /* margin-left: 300vh;
+    width: 10%;
+    height: 100vh;
+    display: flex; */
+}
+
+/* team project */
+.teamProjectMain {
+    position: fixed;
+    top: 0;
+}
+
+.teamProjectTitle {
+    margin-left: -300px;
+    height: 100vh;
+    display: flex;
+}
+
+.teamProjectTitle img {
+    height: 100px;
+}
+
+.teamProjectDiv {
+    margin-left: 250vh;
+    width: 1000vh;
+    height: 100vh;
+    display: flex;
+    /* background: linear-gradient(to right, white, white, yellow, yellow,blue, blue, black, black, white); */
+    background: linear-gradient(to right, white, #43B2CA, #43B2CA, #F3DD72, #F3DD72, white);
+}
+
+.teamProjectContentBox {
+    margin: 0% 0% 0% 25%;
+}
+
+.projectTitle {
+    font-size: 30px;
+    color: white;
+}
+
+.teamProjectImg {
+    width: 120vh;
+    box-shadow: 5px 5px 10px 0px #747474; 
+}

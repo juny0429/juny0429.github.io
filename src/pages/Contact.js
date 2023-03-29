@@ -82,7 +82,12 @@ function Contact() {
             </div>
             <div className={contactStyle.footer}>
                 <div className={contactStyle.footerText}>
-                    저의 포트폴리오는 계속해서 업데이트 하고 있습니다. 많은 의견 남겨주시면 감사하겠습니다.[ 본 포트폴리오는 1920 * 1080에 최적화되어 있습니다 ]
+                    저의 포트폴리오는 계속해서 업데이트 하고 있습니다.  
+                    <Link 
+                        to="https://asked.kr/juny0429"
+                        style={{color:"#C18FFF"}}    
+                    >많은 의견 남겨주시면 감사하겠습니다.</Link>
+                    [ 본 포트폴리오는 1920 * 1080에 최적화되어 있습니다 ]
                 </div>
                 <div className={contactStyle.footerImg}>
                     <Link to="https://elastic-network-b5d.notion.site/Park-s-DevNote-cfb53ea770cc4828a2aad5e97b5fd968">

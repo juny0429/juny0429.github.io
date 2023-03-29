@@ -5,8 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Project from './pages/Project';
-import ProjectScroll from './pages/ProjectScroll';
 import Contact from './pages/Contact';
+import TheTitanProject from './pages/projectDetail/TheTitanProjectDetail';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="/project" Component={Project} />
           <Route path="/contact" Component={Contact} />
         </Route>
-        <Route path="/project/detail" Component={ProjectScroll} />
+        <Route path="/project/the_titan" Component={TheTitanProject} />
       </Routes>
     </BrowserRouter>
   );
