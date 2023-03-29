@@ -1,65 +1,139 @@
 import projectStyle from '../resources/css/pages/Project.module.css';
-import React from 'react';
-import { useState } from 'react';
-import { Element } from 'react-scroll';
+import React, { useState, useEffect } from 'react';
 
-import peopleIcon from '../resources/images/icon/people_icon.png';
+import semiProjectImg from '../resources/images/project_img/semi_project.png';
+import finalProjectImg from '../resources/images/project_img/final_project.png';
+import protfolioImg from '../resources/images/project_img/protfolio.png';
+import theTitanLogo from '../resources/images/project_img/the_titan_logo.png';
+import smileInvestLogo from '../resources/images/project_img/smile_invest_logo.png';
+import pjyImg from '../resources/images/project_img/pjy_portpolio.jpg';
+
+import calendarIcon from '../resources/images/icon/calendar_icon.png';
 import peoplesIcon from '../resources/images/icon/peoples_icon.png';
-import playIcon from '../resources/images/icon/play_icon.png';
-import studyIcon from '../resources/images/icon/study_icon.png';
+import peopleIcon from '../resources/images/icon/people_icon.png';
+import eyeIcon from '../resources/images/icon/eye_icon.png'
 
 function Project() {
 
-    const [iconSize, setIconSize] = useState([]);
+    /* 아이콘 사이즈 변경 */
+    const [itemSize, setItemSize] = useState([]);
 
-    const iconSizeEnterHandler = (index) => {
-        setIconSize(prevState => {
+    const itemSizeEnterHandler = (index) => {
+        setItemSize(prevState => {
             const newState = [...prevState];
             newState[index] = true;
             return newState;
         });
+
+        const listItem = document.getElementsByClassName(`${projectStyle.projectListItem}`)[index];
+        switch (index) {
+            case 0:
+                // listItem.style.background = 'linear-gradient(to top left, #d0ad1329, #4b4b4b4d)';
+                listItem.style.background = 'linear-gradient(to top left, #d0ad13, #181818b0)';
+                break;
+            case 1:
+                listItem.style.background = 'linear-gradient(to top left, #f76707b0, #330c47b0)';
+                break;
+            case 2:
+                listItem.style.background = 'linear-gradient(to top left, #F3DD72b0, #471A0Cb0)';
+                break;
+            default:
+                listItem.style.background = 'linear-gradient(to top left, #4b4b4b4d, #4b4b4b4d)';
+                break;
+    }
     };
 
-    const iconSizeLeaveHandler = (index) => {
-        setIconSize(prevState => {
+    const itemSizeLeaveHandler = (index) => {
+        setItemSize(prevState => {
             const newState = [...prevState];
             newState[index] = false;
             return newState;
         });
+        
+        const listItem = document.getElementsByClassName(`${projectStyle.projectListItem}`)[index];
+        listItem.style.background = 'none';
     };
+
 
     return (
         <div className={projectStyle.projectMain}>
-            <div>
-                <div className={projectStyle.projectIconPackage}>
-                    <img
-                        className={iconSize[0] ? projectStyle.projectIconSizeUp : ''} 
-                        src={peopleIcon} 
-                        alt="개인 프로젝트 아이콘"
-                        onMouseEnter={() => iconSizeEnterHandler(0)}
-                        onMouseLeave={() => iconSizeLeaveHandler(0)}
-                    />
-                    <img 
-                        className={iconSize[1] ? projectStyle.projectIconSizeUp : ''}
-                        src={peoplesIcon} 
-                        alt="팀 프로젝트 아이콘"
-                        onMouseEnter={() => iconSizeEnterHandler(1)}
-                        onMouseLeave={() => iconSizeLeaveHandler(1)}
-                    />
-                    <img 
-                        className={iconSize[2] ? projectStyle.projectIconSizeUp : ''}
-                        src={playIcon} 
-                        alt="게임 아이콘"
-                        onMouseEnter={() => iconSizeEnterHandler(2)}
-                        onMouseLeave={() => iconSizeLeaveHandler(2)}    
-                    />
-                    <img 
-                        className={iconSize[3] ? projectStyle.projectIconSizeUp : ''}
-                        src={studyIcon} 
-                        alt="스터디 아이콘"
-                        onMouseEnter={() => iconSizeEnterHandler(3)}
-                        onMouseLeave={() => iconSizeLeaveHandler(3)}
-                    />
+            <div className={projectStyle.projectContant}>
+                <div className={projectStyle.projectListTitle}>
+                    <span>Project List</span>
+                </div>
+                <div className={projectStyle.projectCategory}>
+                    <span>single</span>
+                    <span>team</span>
+                    <span>study</span>
+                    <span>game(coming soon)</span>
+                </div>
+                <div className={projectStyle.projectList}>
+                    <div 
+                        className={`${projectStyle.projectListItem} ${itemSize[0] ? projectStyle.projectItemGradient : ""}`}
+                        onMouseEnter={() => itemSizeEnterHandler(0)}
+                        onMouseLeave={() => itemSizeLeaveHandler(0)}    
+                    >
+                        <div className={projectStyle.itemImg}>
+                            <img src={pjyImg} alt="포트폴리오 프로젝트"/>
+                        </div>
+                        <div className={projectStyle.itemText}>
+                            <p className={projectStyle.itemTextTitle}>PJY Portpolio</p>
+                            <div className={projectStyle.itemTextInfo}>
+                                <img className={projectStyle.calendarIcon} src={calendarIcon} alt="달력 아이콘"/>
+                                <span style={{width:"240px"}}>23.03.24 ~ 23.03.29</span>
+                                <img className={projectStyle.calendarIcon} src={peopleIcon} alt="사람 아이콘"/>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        <div className={itemSize[0] ? projectStyle.viewCode : projectStyle.viewHide}>
+                            <span>code view</span>
+                            <img className={projectStyle.eyeIcon} src={eyeIcon} alt="눈 아이콘"/>
+                        </div>
+                    </div>
+                    <div 
+                        className={`${projectStyle.projectListItem} ${itemSize[1] ? projectStyle.projectItemGradient : ""}`}
+                        onMouseEnter={() => itemSizeEnterHandler(1)}
+                        onMouseLeave={() => itemSizeLeaveHandler(1)}    
+                    >
+                        <div className={projectStyle.itemImg} style={{backgroundColor:"#b66044"}}>
+                            <img src={theTitanLogo} alt="파이널 프로젝트"/>
+                        </div>
+                        <div className={projectStyle.itemText}>
+                            <p className={projectStyle.itemTextTitle}>the titan(인사관리 그룹웨어)</p>
+                            <div className={projectStyle.itemTextInfo}>
+                                <img className={projectStyle.calendarIcon} src={calendarIcon} alt="달력 아이콘"/>
+                                <span style={{width:"240px"}}>23.01.17 ~ 23.03.22</span>
+                                <img className={projectStyle.calendarIcon} src={peoplesIcon} alt="사람들 아이콘"/>
+                                <span>6</span>
+                            </div>
+                        </div>
+                        <div className={itemSize[1] ? projectStyle.viewCode : projectStyle.viewHide}>
+                            <span>code view</span>
+                            <img className={projectStyle.eyeIcon} src={eyeIcon} alt="눈 아이콘"/>
+                        </div>
+                    </div>
+                    <div 
+                        className={`${projectStyle.projectListItem} ${itemSize[2] ? projectStyle.projectItemGradient : ""}`}
+                        onMouseEnter={() => itemSizeEnterHandler(2)}
+                        onMouseLeave={() => itemSizeLeaveHandler(2)}    
+                    >
+                        <div className={projectStyle.itemImg} style={{backgroundColor:"#F3DD72"}}>
+                            <img src={ smileInvestLogo} alt="세미 프로젝트"/>
+                        </div>
+                        <div className={projectStyle.itemText}>
+                            <p className={projectStyle.itemTextTitle}>smlie invest(크라우드 펀딩 사이트)</p>
+                            <div className={projectStyle.itemTextInfo}>
+                                <img className={projectStyle.calendarIcon} src={calendarIcon} alt="달력 아이콘"/>
+                                <span style={{width:"240px"}}>22.12.05 ~ 23.01.13</span>
+                                <img className={projectStyle.calendarIcon} src={peoplesIcon} alt="사람들 아이콘"/>
+                                <span>8</span>
+                            </div>
+                        </div>
+                        <div className={itemSize[2] ? projectStyle.viewCode : projectStyle.viewHide}>
+                            <span>code view</span>
+                            <img className={projectStyle.eyeIcon} src={eyeIcon} alt="눈 아이콘"/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
