@@ -28,17 +28,17 @@ function Project() {
         const listItem = document.getElementsByClassName(`${projectStyle.projectListItem}`)[index];
         switch (index) {
             case 0:
-                // listItem.style.background = 'linear-gradient(to top left, #d0ad1329, #4b4b4b4d)';
-                listItem.style.background = 'linear-gradient(to top left, #d0ad13, #181818b0)';
+                listItem.style.background = 'linear-gradient(to top left, #d0ad1329, #4b4b4b4d)';
+                // listItem.style.background = 'linear-gradient(to top left, #d0ad13, #181818b0)';
                 break;
             case 1:
-                listItem.style.background = 'linear-gradient(to top left, #f76707b0, #330c47b0)';
+                listItem.style.background = 'linear-gradient(to top left, #f7670729, #4b4b4b4d)';
                 break;
             case 2:
-                listItem.style.background = 'linear-gradient(to top left, #F3DD72b0, #471A0Cb0)';
+                listItem.style.background = 'linear-gradient(to top left, #F3DD72b0, #4b4b4b4d)';
                 break;
             default:
-                listItem.style.background = 'linear-gradient(to top left, #4b4b4b4d, #4b4b4b4d)';
+                listItem.style.background = 'linear-gradient(to top left, #4b4b4b29, #4b4b4b4d)';
                 break;
     }
     };
@@ -53,6 +53,18 @@ function Project() {
         const listItem = document.getElementsByClassName(`${projectStyle.projectListItem}`)[index];
         listItem.style.background = 'none';
     };
+
+    /* 페이지 이동 */
+    const handleProjectClick = (index) => {
+        // 해당 index에 맞는 페이지로 이동
+        if (index === 0) {
+            window.location.href = '';
+        } else if (index === 1) {
+            window.location.href = '/pjy-portfolio/project/the_titan';
+        } else if (index === 2) {
+            window.location.href = '';
+        }
+      };
 
 
     return (
@@ -72,6 +84,7 @@ function Project() {
                         className={`${projectStyle.projectListItem} ${itemSize[0] ? projectStyle.projectItemGradient : ""}`}
                         onMouseEnter={() => itemSizeEnterHandler(0)}
                         onMouseLeave={() => itemSizeLeaveHandler(0)}    
+                        onClick={() => handleProjectClick(0)}
                     >
                         <div className={projectStyle.itemImg}>
                             <img src={pjyImg} alt="포트폴리오 프로젝트"/>
@@ -94,6 +107,7 @@ function Project() {
                         className={`${projectStyle.projectListItem} ${itemSize[1] ? projectStyle.projectItemGradient : ""}`}
                         onMouseEnter={() => itemSizeEnterHandler(1)}
                         onMouseLeave={() => itemSizeLeaveHandler(1)}    
+                        onClick={() => handleProjectClick(1)}
                     >
                         <div className={projectStyle.itemImg} style={{backgroundColor:"#b66044"}}>
                             <img src={theTitanLogo} alt="파이널 프로젝트"/>
@@ -116,6 +130,7 @@ function Project() {
                         className={`${projectStyle.projectListItem} ${itemSize[2] ? projectStyle.projectItemGradient : ""}`}
                         onMouseEnter={() => itemSizeEnterHandler(2)}
                         onMouseLeave={() => itemSizeLeaveHandler(2)}    
+                        onClick={() => handleProjectClick(2)}
                     >
                         <div className={projectStyle.itemImg} style={{backgroundColor:"#F3DD72"}}>
                             <img src={ smileInvestLogo} alt="세미 프로젝트"/>

@@ -14,7 +14,7 @@ function Contact() {
         { title: "EMAIL", info: "juny_0429@naver.com", isHovering: false },
         { title: "VELOG", info: "velog.io/@juny_0429" },
         { title: "GITHUB", info: "github.com/juny0429" },
-        { title: "NOTION", info: "노션 보러가기" },
+        { title: "NOTION", info: "notion study log" },
     ]);
 
     const handleMouseOver = (index) => {
@@ -87,23 +87,8 @@ function Contact() {
                         to="https://asked.kr/juny0429"
                         style={{color:"#C18FFF"}}    
                     >많은 의견 남겨주시면 감사하겠습니다.</Link>
-                    [ 본 포트폴리오는 1920 * 1080에 최적화되어 있습니다 ]
                 </div>
-                <div className={contactStyle.footerImg}>
-                    <Link to="https://elastic-network-b5d.notion.site/Park-s-DevNote-cfb53ea770cc4828a2aad5e97b5fd968">
-                        <img src={notionLogo} alt="notion logo"/>
-                    </Link>
-                    <Link to="https://velog.io/@juny_0429">
-                        <img src={velogLogo} alt="velog logo"/>
-                    </Link>
-                    <img 
-                        src={kakaoLogo} 
-                        alt="Kakao logo"
-                        onClick={QREnterHandler}
-                        onMouseLeave={QRLeaveHandler}
-                    />
-                    <img className={`${contactStyle.kakaoQR} ${kakaoQRView ? contactStyle.kakaoQRShow : ""}`} src={kakaoQR} alt="kakaoQR img" />
-                </div>
+                    <span className={contactStyle.footerText} style={{float:"right"}}>[ 본 포트폴리오는 1920 * 1080에 최적화되어 있습니다 ]</span>
             </div>
         </div>
     );

@@ -23,19 +23,18 @@ function Skills() {
         <div className={skillStyle.skillMain}>
             <div className={skillStyle.skillTopBox}> 
                 <div className={skillStyle.skillBlock}>
-                    <div className={skillStyle.logoImg2}>
-                        <img
-                            className={`${skillStyle.logoImg} ${
-                                logoBounce ? skillStyle.bounceLogo : ""
-                              }`}
-                            src={reactLogo}
-                            alt="로고"
-                            onMouseEnter={logoBounceEnterHandler}
-                            onMouseLeave={logoBounceLeaveHandler}
-                        />
-                    </div>
+                    <img
+                        className={`${skillStyle.logoImg} ${
+                            logoBounce ? skillStyle.bounceLogo : ""
+                            }`}
+                        src={reactLogo}
+                        alt="로고"
+                        onMouseEnter={logoBounceEnterHandler}
+                        onMouseLeave={logoBounceLeaveHandler}
+                    />
                     <p className={skillStyle.logoTitle}>React</p>
-                    <p className={skillStyle.logoContant}>기본사용법</p>
+                    <p className={skillStyle.logoContant}>Component, JSX, props,states,</p>
+                    <p className={skillStyle.logoContant}>hooks, router, redux</p>
                 </div>
                 <div className={skillStyle.skillBlock}>
                     <img
@@ -48,7 +47,7 @@ function Skills() {
                         onMouseLeave={logoBounceLeaveHandler}
                     />
                     <p className={skillStyle.logoTitle}>HTML</p>
-                    <p className={skillStyle.logoContant}>마크업, 페이지 구조화, 폼요소, 테이블 등등</p>
+                    <p className={skillStyle.logoContant}>마크업, 페이지 구조화, 폼요소, 테이블,</p>
                 </div>
                 <div className={skillStyle.skillBlock}>
                     <img
@@ -61,7 +60,8 @@ function Skills() {
                         onMouseLeave={logoBounceLeaveHandler}
                     />
                     <p className={skillStyle.logoTitle}>CSS</p>
-                    <p className={skillStyle.logoContant}>배경 스타일링, 텍스트 스타일링, 애니메이션 등</p>
+                    <p className={skillStyle.logoContant}>Layout, 배경 스타일링,</p>
+                    <p className={skillStyle.logoContant}>텍스트 스타일링, 애니메이션</p>
                 </div>
             </div>
             <div className={skillStyle.skillTopBox}>
@@ -76,7 +76,8 @@ function Skills() {
                         onMouseLeave={logoBounceLeaveHandler}
                     />
                     <p className={skillStyle.logoTitle}>Javascript</p>
-                    <p className={skillStyle.logoContant}>네비게이션 구성, 탭메뉴 구현, 비동기 처리 등</p>
+                    <p className={skillStyle.logoContant}>ES6 추가 문법, babel,</p>
+                    <p className={skillStyle.logoContant}>Document Object Model, 비동기처리</p>
                 </div>
                 <div className={skillStyle.skillBlock}>
                     <img
