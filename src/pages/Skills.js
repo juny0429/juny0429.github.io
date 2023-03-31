@@ -33,8 +33,9 @@ function Skills() {
                         onMouseLeave={logoBounceLeaveHandler}
                     />
                     <p className={skillStyle.logoTitle}>React</p>
-                    <p className={skillStyle.logoContant}>Component, JSX, props,states,</p>
-                    <p className={skillStyle.logoContant}>hooks, router, redux</p>
+                    <p className={skillStyle.logoContant}>Component, JSX, props, state 개념 이해,</p>
+                    <p className={skillStyle.logoContant}>React Router, SPA 이해,</p>
+                    <p className={skillStyle.logoContant}>Hooks 함수형 컴포넌트 상태관리</p>
                 </div>
                 <div className={skillStyle.skillBlock}>
                     <img
@@ -47,7 +48,7 @@ function Skills() {
                         onMouseLeave={logoBounceLeaveHandler}
                     />
                     <p className={skillStyle.logoTitle}>HTML</p>
-                    <p className={skillStyle.logoContant}>마크업, 페이지 구조화, 폼요소, 테이블,</p>
+                    <p className={skillStyle.logoContant}>마크업, 페이지 구조화, 폼요소, 테이블</p>
                 </div>
                 <div className={skillStyle.skillBlock}>
                     <img

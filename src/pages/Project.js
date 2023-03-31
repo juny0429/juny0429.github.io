@@ -1,9 +1,6 @@
 import projectStyle from '../resources/css/pages/Project.module.css';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
-import semiProjectImg from '../resources/images/project_img/semi_project.png';
-import finalProjectImg from '../resources/images/project_img/final_project.png';
-import protfolioImg from '../resources/images/project_img/protfolio.png';
 import theTitanLogo from '../resources/images/project_img/the_titan_logo.png';
 import smileInvestLogo from '../resources/images/project_img/smile_invest_logo.png';
 import pjyImg from '../resources/images/project_img/pjy_portpolio.jpg';
@@ -58,11 +55,12 @@ function Project() {
     const handleProjectClick = (index) => {
         // 해당 index에 맞는 페이지로 이동
         if (index === 0) {
-            window.location.href = '';
+            window.location.href = 'https://github.com/juny0429/pjy-portfolio';
         } else if (index === 1) {
-            window.location.href = '/pjy-portfolio/project/the_titan';
+            // window.location.href = '/pjy-portfolio/project/the_titan';
+            window.location.href = 'https://github.com/orgs/2TeamHR/repositories';
         } else if (index === 2) {
-            window.location.href = '';
+            window.location.href = 'https://github.com/smile-invest/smile-invest';
         }
       };
 
@@ -141,7 +139,7 @@ function Project() {
                                 <img className={projectStyle.calendarIcon} src={calendarIcon} alt="달력 아이콘"/>
                                 <span style={{width:"240px"}}>22.12.05 ~ 23.01.13</span>
                                 <img className={projectStyle.calendarIcon} src={peoplesIcon} alt="사람들 아이콘"/>
-                                <span>8</span>
+                                <span>7</span>
                             </div>
                         </div>
                         <div className={itemSize[2] ? projectStyle.viewCode : projectStyle.viewHide}>

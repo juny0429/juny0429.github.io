@@ -29,30 +29,6 @@ function Contact() {
         setContactInfo(newContactInfo);
     };
 
-    const createLink = (title, info) => {
-        if (title === "VELOG") {
-            return <Link className={contactStyle.linkText} to={`https://${info}`} target="_blank" rel="noreferrer">{info}</Link>;
-        }
-        if (title === "GITHUB") {
-            return <Link className={contactStyle.linkText} to={`https://${info}`} target="_blank" rel="noreferrer">{info}</Link>;
-        }
-        if (title === "NOTION") {
-            return <Link className={contactStyle.linkText} to={`https://elastic-network-b5d.notion.site/Park-s-DevNote-cfb53ea770cc4828a2aad5e97b5fd968`} target="_blank">{info}</Link>
-        }
-        return <span>{info}</span>;
-    };
-
-    /* kakaoQR */
-    const [kakaoQRView, setKakaoQRView] = useState(false);
-
-    const QREnterHandler = () => {
-        setKakaoQRView(true);
-    };
-    
-    const QRLeaveHandler = () => {
-        setKakaoQRView(false);
-    };
-
     return (
         <div className={contactStyle.contactMain}>
             <div className={contactStyle.textMain}>
@@ -75,7 +51,6 @@ function Contact() {
                     item.isHovering ? contactStyle.showText : ""
                     }`}
                 >
-                    {createLink(item.title, item.info)}
                 </span>
                 </div>
             ))}
