@@ -7,6 +7,7 @@ import Skills from './pages/Skills';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
 import TheTitanProject from './pages/projectDetail/TheTitanProjectDetail';
+import SmileInvestProject from './pages/projectDetail/SmileInvest';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" Component={Contact} />
         </Route>
         <Route path="/project/the_titan" Component={TheTitanProject} />
+        <Route path="/project/smile_invest" Component={SmileInvestProject} />
       </Routes>
     </BrowserRouter>
   );

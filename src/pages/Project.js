@@ -95,6 +95,10 @@ function Project() {
                                 <img className={projectStyle.calendarIcon} src={peopleIcon} alt="사람 아이콘"/>
                                 <span>1</span>
                             </div>
+                            <div className={itemSize[0] ? projectStyle.viewInfo : projectStyle.viewHide}>
+                                <p>나를 어떻게하면 간결하고 임펙트있게 보여줄수 있을까? 를 생각하며 작업했습니다.</p>
+                                <p>각 페이지별 애니메이션 기능을 활용한 디자인 구현이 특징입니다.</p>
+                            </div>
                         </div>
                         <div className={itemSize[0] ? projectStyle.viewCode : projectStyle.viewHide}>
                             <span>code view</span>
@@ -118,6 +122,10 @@ function Project() {
                                 <img className={projectStyle.calendarIcon} src={peoplesIcon} alt="사람들 아이콘"/>
                                 <span>6</span>
                             </div>
+                            <div className={itemSize[1] ? projectStyle.viewInfo : projectStyle.viewHide}>
+                                <p>인사관리 그룹웨어를 주제로한 프로젝트입니다.</p>
+                                <p>스프링부트 기반의 RestAPI 서버를 연동한 React.jsSPA 애플리케이션이 특징입니다.</p>
+                            </div>
                         </div>
                         <div className={itemSize[1] ? projectStyle.viewCode : projectStyle.viewHide}>
                             <span>code view</span>
@@ -140,6 +148,10 @@ function Project() {
                                 <span style={{width:"240px"}}>22.12.05 ~ 23.01.13</span>
                                 <img className={projectStyle.calendarIcon} src={peoplesIcon} alt="사람들 아이콘"/>
                                 <span>7</span>
+                            </div>
+                            <div className={itemSize[2] ? projectStyle.viewInfo : projectStyle.viewHide}>
+                                <p>반려동물을 주제로 한 클라우드 펀딩 프로젝트입니다.</p>
+                                <p>스프링부트와 마이바티스를 활용한 MVC Model2 기반으로 구현 했습니다.</p>
                             </div>
                         </div>
                         <div className={itemSize[2] ? projectStyle.viewCode : projectStyle.viewHide}>

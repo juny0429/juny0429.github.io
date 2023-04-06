@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 
 import semiProjectImg from '../../resources/images/project_img/semi_project.png';
 import finalProjectImg from '../../resources/images/project_img/final_project.png';
-import protfolioImg from '../../resources/images/project_img/protfolio.png';
 
 import theTitanMainGif from '../../resources/images/gif/the_titan/the_titan_main.gif';
 

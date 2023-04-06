@@ -1,6 +1,6 @@
 .projectMain {
     background-color: #181818;
-    height: 90vh;
+    height: 120vh;
 }
 
 /* project list */
@@ -92,12 +92,20 @@
 
 .viewHide {
     opacity: 0;
+    position: absolute;
 }
 
 .viewCode span {
     font-size: 2rem;
     margin: 0;
-    color: rgba(255, 255, 255, 0.372);
+    color: rgba(255, 255, 255, 0.679);
+}
+
+.viewInfo {
+    margin-left: 10%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.342);
+    font-weight: 900;
 }
 
 .eyeIcon {
