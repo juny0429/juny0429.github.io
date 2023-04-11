@@ -38,11 +38,11 @@
     transition: opacity 0.2s;
 }
 
-.hideText {
+.hideContactText {
     opacity: 0;
 }
 
-.showText {
+.showContectText {
     display: inline-block;
     animation: textChange 1s ease-in-out 1 forwards;
     transform-origin: center;
@@ -84,27 +84,4 @@
     height: 35px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-/* kakao QR 애니메이션 */
-.kakaoQR {
-    position: absolute;
-    opacity: 0;
-}
-
-.kakaoQRShow:not(.footerImg) {
-    position: absolute;
-    display: inline-block;
-    animation: QRshow 1s ease-in-out 1 forwards;
-    transform-origin: bottom right;
-}
-
-@keyframes QRshow {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(10);
-    }
 }

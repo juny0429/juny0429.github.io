@@ -2,19 +2,14 @@ import React, { useState } from "react";
 import contactStyle from "../resources/css/pages/Contact.module.css";
 import { Link } from "react-router-dom";
 
-import kakaoLogo from '../resources/images/logos/kakaoLogo.png';
-import velogLogo from '../resources/images/logos/velogLogo.jpg';
-import notionLogo from '../resources/images/logos/notionLogo.png';
-import kakaoQR from '../resources/images/kakaoQR.jpg';
-
 function Contact() {
 
     const [contactInfo, setContactInfo] = useState([
         { title: "PHONE", info: "010-4195-1928", isHovering: false },
         { title: "EMAIL", info: "juny_0429@naver.com", isHovering: false },
-        { title: "VELOG", info: "velog.io/@juny_0429" },
-        { title: "GITHUB", info: "github.com/juny0429" },
-        { title: "NOTION", info: "notion study log" },
+        { title: "VELOG", info: "velog.io/@juny_0429", link: "https://velog.io/@juny_0429" },
+        { title: "GITHUB", info: "github.com/juny0429", link: "https://github.com/juny0429" },
+        { title: "NOTION", info: "notion study log", link:"https://elastic-network-b5d.notion.site/Park-s-DevNote-cfb53ea770cc4828a2aad5e97b5fd968" },
     ]);
 
     const handleMouseOver = (index) => {
@@ -41,17 +36,19 @@ function Contact() {
                 >
                 <span
                     className={`${contactStyle.firstText} ${
-                    item.isHovering ? contactStyle.hideText : ""
+                    item.isHovering ? contactStyle.hideContactText : ""
                     }`}
                 >
                     {item.title}
                 </span>
-                <span
+                <Link
+                    to={item.title === "PHONE" || item.title === "EMAIL" ? null : item.link}
                     className={`${contactStyle.secondText} ${
-                    item.isHovering ? contactStyle.showText : ""
+                    item.isHovering ? contactStyle.showContectText : ""
                     }`}
                 >
-                </span>
+                    {item.info}
+                </Link>
                 </div>
             ))}
             </div>
