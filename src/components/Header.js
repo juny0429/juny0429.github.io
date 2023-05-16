@@ -1,8 +1,5 @@
 import headerStyle from '../resources/css/components/Header.module.css';
 
-import { useState } from 'react';
-import React, { useEffect } from 'react';
-
 function Header() {
   
   const onClickHomeHandler = () => {

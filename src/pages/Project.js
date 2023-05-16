@@ -4,11 +4,12 @@ import React, { useState } from 'react';
 import theTitanLogo from '../resources/images/project_img/the_titan_logo.png';
 import smileInvestLogo from '../resources/images/project_img/smile_invest_logo.png';
 import pjyImg from '../resources/images/project_img/pjy_portpolio.jpg';
+import apiImg from '../resources/images/project_img/api_logo.png';
 
 import calendarIcon from '../resources/images/icon/calendar_icon.png';
 import peoplesIcon from '../resources/images/icon/peoples_icon.png';
 import peopleIcon from '../resources/images/icon/people_icon.png';
-import eyeIcon from '../resources/images/icon/eye_icon.png'
+import eyeIcon from '../resources/images/icon/eye_icon.png';
 
 function Project() {
 
@@ -33,6 +34,9 @@ function Project() {
                 break;
             case 2:
                 listItem.style.background = 'linear-gradient(to top left, #F3DD72b0, #4b4b4b4d)';
+                break;
+            case 3:
+                listItem.style.background = 'linear-gradient(to top left, #72CBF3b0, #4b4b4b4d)';
                 break;
             default:
                 listItem.style.background = 'linear-gradient(to top left, #4b4b4b29, #4b4b4b4d)';
@@ -61,7 +65,10 @@ function Project() {
             window.location.href = 'https://github.com/orgs/2TeamHR/repositories';
         } else if (index === 2) {
             window.location.href = 'https://github.com/smile-invest/smile-invest';
+        } else if (index === 3) {
+            window.location.href = "/pjy-portfolio/mini-project";
         }
+
       };
 
 
@@ -155,6 +162,33 @@ function Project() {
                             </div>
                         </div>
                         <div className={itemSize[2] ? projectStyle.viewCode : projectStyle.viewHide}>
+                            <span>code view</span>
+                            <img className={projectStyle.eyeIcon} src={eyeIcon} alt="눈 아이콘"/>
+                        </div>
+                    </div>
+                    <div 
+                        className={`${projectStyle.projectListItem} ${itemSize[3] ? projectStyle.projectItemGradient : ""}`}
+                        onMouseEnter={() => itemSizeEnterHandler(3)}
+                        onMouseLeave={() => itemSizeLeaveHandler(3)}    
+                        onClick={() => handleProjectClick(3)}
+                    >
+                        <div className={projectStyle.itemImg} style={{backgroundColor:"#F3DD72"}}>
+                            <img src={apiImg} alt="api 모음"/>
+                        </div>
+                        <div className={projectStyle.itemText}>
+                            <p className={projectStyle.itemTextTitle}>API Package(API 모음)</p>
+                            <div className={projectStyle.itemTextInfo}>
+                                <img className={projectStyle.calendarIcon} src={calendarIcon} alt="달력 아이콘"/>
+                                <span style={{width:"240px"}}>22.04 ~ </span>
+                                <img className={projectStyle.calendarIcon} src={peoplesIcon} alt="사람들 아이콘"/>
+                                <span>1</span>
+                            </div>
+                            <div className={itemSize[3] ? projectStyle.viewInfo : projectStyle.viewHide}>
+                                <p>API 모음입니다.</p>
+                                <p>다양한 API를 경험해보고자 합니다.</p>
+                            </div>
+                        </div>
+                        <div className={itemSize[3] ? projectStyle.viewCode : projectStyle.viewHide}>
                             <span>code view</span>
                             <img className={projectStyle.eyeIcon} src={eyeIcon} alt="눈 아이콘"/>
                         </div>

@@ -1,0 +1,18 @@
+.weatherContent {
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+}
+
+.temperature {
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-size: 130px;
+    font-weight: 700;
+}
+
+.temperature p {
+    margin: 0;
+}
