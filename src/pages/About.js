@@ -28,7 +28,6 @@ function About() {
 
     return (
         <div className={aboutStyle.aboutMain}>
-        {/* <div className={aboutStyle.aboutMain} onMouseMove={getMousePosition}> */}
             <div className={aboutStyle.aboutContant}>
                 <div className={aboutStyle.pjyImg}>
                     <img
@@ -46,29 +45,30 @@ function About() {
                         alt="박준영 사진2"
                     />
                 </div>
-                {/* <div className={aboutStyle.pjyImg}>
-                    <img
-                        className={junyoungImgChange ? aboutStyle.hideImg : aboutStyle.showImg}
-                        src={junyoungImg}
-                        alt="박준영 사진"
-                    />
-                    <img
-                        className={junyoungImgChange ? aboutStyle.showImg : aboutStyle.hideImg}
-                        src={junyoung2Img}
-                        alt="박준영 사진2"
-                    />
-                </div> */}
                 <div className={aboutStyle.aboutContantMain}>
                     <div className={aboutStyle.aboutContantTitle}>
-                        <p className={aboutStyle.aboutContantText}>좋은 개발자로서의 가치는 </p>
-                        <span className={aboutStyle.aboutContantTextLine2}>경험하고,</span>
-                        <span className={aboutStyle.aboutContantTextLine2}>학습하고,</span>
-                        <span className={aboutStyle.aboutContantTextLine2}>공유 하는 것,</span>
+                        <p className={aboutStyle.aboutContantName}>박준영</p>
+                        <p className={aboutStyle.aboutContantfield}>Front-End Developer</p>
                     </div>
+
+                    <div className={aboutStyle.aboutContantMBTI}>
+                        <span>뭐든지 분석하는 습관</span>
+                        <span>준비가 철저함</span>
+                        <span>효율과 사랑에 빠짐</span>
+                        <span>자기애가 강함</span>
+                    </div>
+                        
+                    <div className={aboutStyle.aboutContantMBTI}>
+                        <span>시야가 넓음</span>
+                        <span>리더십 있음</span>
+                        <span>공사구분 철저함</span>
+                        <span>한다면 무조건함</span>
+                        <span>사교적인</span>
+                    </div>
+
                     <div className={aboutStyle.aboutBottomText}>
-                        <p>개발자란 함께 협력하며 지식을 공유하고 발전시키는 것이 중요하다고 생각합니다.</p>
-                        <p>프로젝트 진행 과정을 통해 커뮤니케이션 능력을 기르고,</p>
-                        <p>적극적인 자세로 문제를 해결하며 발전을 위해 노력하고 있습니다. </p>
+                        <p>"잠은 죽어서 자자!"라는 좌우명으로</p>
+                        <p>노션과 벨로그를 운영하며 매일 성장하려고 노력하고 있습니다.</p>
                     </div>
                 </div>
             </div>
