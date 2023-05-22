@@ -27,7 +27,6 @@
     animation-iteration-count: 1; 
 }
   
-  
 @keyframes bounce {
     0%, 100% {
         color: #FFFFFF;

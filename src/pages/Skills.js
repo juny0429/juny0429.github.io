@@ -1,10 +1,12 @@
 import skillStyle from '../resources/css/pages/Skills.module.css';
+
 import reactLogo from '../resources/images/logos/reactLogo.png';
 import HTMLogo from '../resources/images/logos/HTMLLogo.png';
 import CSSLogo from '../resources/images/logos/CSSLogo.png';
 import bootstrapLogo from '../resources/images/logos/bootstrapLogo.png';
 import githubLogo from '../resources/images/logos/githubLogo.png';
 import javascriptLogo from '../resources/images/logos/javascriptLogo.png';
+
 import { useState } from 'react';
 
 function Skills() {
@@ -110,7 +112,6 @@ function Skills() {
             </div>
         </div>
     );
-
 }
 
 export default Skills;

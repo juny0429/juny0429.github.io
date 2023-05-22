@@ -6,10 +6,6 @@ import About from './pages/About';
 import Skills from './pages/Skills';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
-import TheTitanProject from './pages/projectDetail/TheTitanProjectDetail';
-import SmileInvestProject from './pages/projectDetail/SmileInvest';
-import MiniProject from './pages/miniProject/miniProject';
-import WeatherFashion from './pages/miniProject/WeatherFashion';
 
 function App() {
   return (
@@ -23,10 +19,6 @@ function App() {
           <Route path="/project" Component={Project} />
           <Route path="/contact" Component={Contact} />
         </Route>
-        <Route path="/project/the_titan" Component={TheTitanProject} />
-        <Route path="/project/smile_invest" Component={SmileInvestProject} />
-        <Route path="/mini-project" Component={MiniProject} />
-        <Route path="/mini-project/weather-fashion" Component={WeatherFashion} />
       </Routes>
     </BrowserRouter>
   );

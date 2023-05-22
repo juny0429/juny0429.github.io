@@ -9,7 +9,7 @@ import light from '../resources/images/light.png';
 import brokenLight from '../resources/images/brokenLight.png';
 
 import { useState } from 'react';
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function Home() {
 
@@ -155,6 +155,7 @@ function Home() {
                             </span>
                             ))}
                         </div>
+
                         <div>
                             {textArrayBottom.map((text, index) => (
                             <span
@@ -170,7 +171,8 @@ function Home() {
                             ))}
                         </div>
                     </div>
-                    <div className={homeStyle.homeMiddleText}>반갑습니다! 좋은 개발자를 꿈꾸고 있는 '박준영'입니다.</div>
+
+                    <div className={homeStyle.homeMiddleText}>반갑습니다! 프론트엔드 개발자를 꿈꾸고 있는 '박준영'입니다.</div>
                 </div>
             </div>
         </div>

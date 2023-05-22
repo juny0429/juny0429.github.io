@@ -17,18 +17,6 @@
   width: 40vh;
 }
 
-.showImg {
-  position: absolute;
-  opacity: 1;
-  transition: opacity 1s;
-}
-
-.hideImg {
-  position: absolute;
-  opacity: 0;
-  transition: opacity 1s;
-}
-
 /* 본문 */
 .aboutContantMain {
   width: 75%;
@@ -36,35 +24,6 @@
 
 .aboutContantTitle {
   margin-left: 5%;
-}
-
-.aboutContantTitle span {
-  opacity: 0;
-  transform: translateX(-20px);
-  animation: fadeIn 0.5s ease-in-out forwards;
-}
-
-.aboutContantTitle span:nth-of-type(1) {
-  animation-delay: 0.7s;
-}
-
-.aboutContantTitle span:nth-of-type(2) {
-  animation-delay: 1.2s;
-}
-
-.aboutContantTitle span:nth-of-type(3) {
-  animation-delay: 1.7s;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateX(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
 }
 
 .aboutContantName {
@@ -100,20 +59,11 @@
 
 .aboutBottomText {
   width: 70%;
-  margin-left: 5%;
-  margin-top: 8%;
-  padding: 10px 0px 10px 35px;
+  margin: 8% 0 0 5%;
+  padding: 1% 3% 1% 3%;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   color: white;
   background-color: #373737;
   border-left: 5px solid #19ffd9;
-  opacity: 0;
-  transform: translateX(-20px);
-  animation: fadeIn 0.5s ease-in-out forwards;
-  animation-delay: 2.3s;
-}
-
-.aboutBottomText p {
-  
 }
