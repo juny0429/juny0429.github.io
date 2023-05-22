@@ -1,9 +1,12 @@
-import React, { useState } from "react";
 import contactStyle from "../resources/css/pages/Contact.module.css";
+import pageTitleStyle from '../resources/css/components/PageTitle.module.css';
+
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Contact() {
 
+    /* 내 연락처와 링크 */
     const [contactInfo, setContactInfo] = useState([
         { title: "PHONE", info: "010-4195-1928", isHovering: false },
         { title: "EMAIL", info: "juny_0429@naver.com", isHovering: false },
@@ -12,6 +15,7 @@ function Contact() {
         { title: "NOTION", info: "notion study log", link:"https://elastic-network-b5d.notion.site/Park-s-DevNote-cfb53ea770cc4828a2aad5e97b5fd968" },
     ]);
 
+    /* 마우스 오버 이벤트 */
     const handleMouseOver = (index) => {
         const newContactInfo = [...contactInfo];
         newContactInfo[index].isHovering = true;
@@ -26,6 +30,9 @@ function Contact() {
 
     return (
         <div className={contactStyle.contactMain}>
+            <div className={pageTitleStyle.pageTitle}>
+                <p>Contact</p>
+            </div>
             <div className={contactStyle.textMain}>
             {contactInfo.map((item, index) => (
                 <div

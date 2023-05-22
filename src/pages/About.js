@@ -1,10 +1,15 @@
 import aboutStyle from '../resources/css/pages/About.module.css';
+import pageTitleStyle from '../resources/css/components/PageTitle.module.css';
+
 import junyoungImg from '../resources/images/junyoung.JPG';
 
 function About() {
 
     return (
         <div className={aboutStyle.aboutMain}>
+            <div className={pageTitleStyle.pageTitle}>
+                <p>About</p>
+            </div>
             <div className={aboutStyle.aboutContant}>
                 <div className={aboutStyle.pjyImg}>
                     <img

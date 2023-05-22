@@ -1,4 +1,5 @@
 import skillStyle from '../resources/css/pages/Skills.module.css';
+import pageTitleStyle from '../resources/css/components/PageTitle.module.css';
 
 import reactLogo from '../resources/images/logos/reactLogo.png';
 import HTMLogo from '../resources/images/logos/HTMLLogo.png';
@@ -23,6 +24,9 @@ function Skills() {
 
     return (
         <div className={skillStyle.skillMain}>
+            <div className={pageTitleStyle.pageTitle}>
+                <p>Skills</p>
+            </div>
             <div className={skillStyle.skillTopBox}> 
                 <div className={skillStyle.skillBlock}>
                     <img
@@ -66,8 +70,6 @@ function Skills() {
                     <p className={skillStyle.logoContant}>Layout, 배경 스타일링,</p>
                     <p className={skillStyle.logoContant}>텍스트 스타일링, 애니메이션</p>
                 </div>
-            </div>
-            <div className={skillStyle.skillTopBox}>
                 <div className={skillStyle.skillBlock}>
                     <img
                         className={`${skillStyle.logoImg} ${
@@ -109,6 +111,9 @@ function Skills() {
                     <p className={skillStyle.logoContant}>마일스톤 및 이슈 관리, 프로젝트 코드 관리,</p>
                     <p className={skillStyle.logoContant}>기본사용법(commit/push/fetch/put) 사용</p>
                 </div>
+            </div>
+            <div className={skillStyle.skillTopBox}>
+                
             </div>
         </div>
     );
