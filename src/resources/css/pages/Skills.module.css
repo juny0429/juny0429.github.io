@@ -6,71 +6,107 @@
 }
 
 .logoImg {
-    width: 100px;
+    width: 70px;
     border-radius: 10%;
 }
 
-.logoImg2 {
-    height: 60%;
-}
-
-.skillBlock {
-    color: white;
-    text-align: center;
-    margin-top: 5%;
-    width: 100%;
-}
-
-.bounceLogo {
-    display: inline-block;
-    animation: rotate 1s ease-in-out 1;
-    animation-iteration-count: 1; 
-  }
-  
-  @keyframes rotate {
-    0% {
-      transform: rotate(0deg);
-    }
-    15% {
-      transform: rotate(50deg);
-    }
-    30% {
-        transform: rotate(-50deg);
-    }
-    45% {
-        transform: rotate(50deg);
-    }
-    50% {
-        transform: rotate(-50deg);
-    }
-    60% {
-    transform: rotate(20deg);
-    }
-    70% {
-        transform: rotate(-20deg);
-    }
-    80% {
-        transform: rotate(10deg);
-    }
-    90% {
-        transform: rotate(-10deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
-  }
-
-.skillTopBox {
+.skillBox {
     display: flex;
     justify-content: space-around;
 }
 
+/* TOP 스킬 요소 설정 */
+.skillBlockTOP {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+    opacity: 0;
+    animation: fade-in 2s forwards;
+}
+
+/* TOP 스킬 요소 애니메이션 */
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* TOP 애니메이션 순서 설정 */
+  .skillBlockTOP:nth-child(1) {
+    animation-delay: 0.5s; 
+  }
+  
+  .skillBlockTOP:nth-child(2) {
+    animation-delay: 1s; 
+  }
+  
+  .skillBlockTOP:nth-child(3) {
+    animation-delay: 1.5s; 
+  }
+  
+  .skillBlockTOP:nth-child(4) {
+    animation-delay: 2s; 
+  }
+  
+  .skillBlockTOP:nth-child(5) {
+    animation-delay: 2.5s; 
+  }
+  
+  .skillBlockTOP:nth-child(6) {
+    animation-delay: 3s; 
+  }
+
+/* BOTTOM 스킬 요소 설정 */
+.skillBlockBOTTOM {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+    opacity: 0;
+    animation: fade-in 2s forwards;
+}
+
+/* BOTTOM 스킬 요소 애니메이션 */
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* BOTTOM 애니메이션 순서 설정 */
+  .skillBlockBOTTOM:nth-child(5) {
+    animation-delay: 0.5s; 
+  }
+  
+  .skillBlockBOTTOM:nth-child(4) {
+    animation-delay: 1s; 
+  }
+  
+  .skillBlockBOTTOM:nth-child(3) {
+    animation-delay: 1.5s; 
+  }
+  
+  .skillBlockBOTTOM:nth-child(2) {
+    animation-delay: 2s; 
+  }
+  
+  .skillBlockBOTTOM:nth-child(1) {
+    animation-delay: 2.5s; 
+  }
+
 .logoTitle {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     letter-spacing: 2px;
 }
 
 .logoContant {
-    font-size: 15px;
+    font-size: 13px;   
 }
