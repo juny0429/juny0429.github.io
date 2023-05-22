@@ -55,6 +55,9 @@ function Contact() {
                     }`}
                 >
                     {item.info}
+                    {item.title !== "PHONE" && item.title !== "EMAIL" && (
+                        <span className={contactStyle.clickText}>click</span>
+                    )}
                 </Link>
                 </div>
             ))}
