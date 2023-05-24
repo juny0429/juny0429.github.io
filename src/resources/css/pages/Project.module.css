@@ -1,16 +1,33 @@
 .projectMain {
     background-color: #181818;
-    height: 120vh;
+    height: 110vh;
 }
 
 /* project list */
 .projectListTitle {
-    padding: 5% 0% 1% 0%;
+    padding: 2% 0% 1% 0%;
     margin: 0px 15% 1% 15%;
     font-size: 50px;
     font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     color: wheat; 
     border-bottom: 1px solid #252525;   
+}
+
+.projectListTitleImg {
+    float: right;
+}
+
+.projectListTitle img {
+    width: 40px;
+    margin: 0 10px 0 10px;
+    transition: transform 0.3s;
+}
+
+.projectListTitle img:hover {
+    transform: scale(1.2);
 }
 
 .projectCategory span {
@@ -114,4 +131,52 @@
     padding: 2%;
     background: linear-gradient(to top left, #d0ad1329, #4b4b4b4d);
     border-radius: 10px;
+}
+
+.projectFilledList {
+    width: 350vw;
+    display: flex;
+}
+
+/* project item filled */
+.projectFilledItem {
+    width: 75vw;
+    margin: 0 15% 0 15%;
+    text-align: center;
+}
+
+.projectFilledItemMainImg {
+    width: 530px;
+    border-radius: 10px;
+}
+
+.projectFilledTitle p {
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.projectFilledTitle span {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.projectFilledContent {
+    margin: 1% 1% 2% 1%;
+    color: white;
+    /* text-align: left; */
+}
+
+.projectFilledContent p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.projectToolList img {
+    width: 25px;
+    margin: 1% 1% 1% 1%;
+    border-radius: 5px;
 }

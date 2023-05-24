@@ -1,7 +1,7 @@
 import aboutStyle from '../resources/css/pages/About.module.css';
 import pageTitleStyle from '../resources/css/components/PageTitle.module.css';
 
-import junyoungImg from '../resources/images/junyoung.JPG';
+import junyoungImg from '../resources/images/junyoung.jpg';
 
 function About() {
 
