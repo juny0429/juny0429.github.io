@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/pjy-portfolio/static/css/main.115a5f76.css",
-    "main.js": "/pjy-portfolio/static/js/main.5ff75e07.js",
+    "main.css": "/pjy-portfolio/static/css/main.5fedbb16.css",
+    "main.js": "/pjy-portfolio/static/js/main.855a5ba7.js",
     "static/js/787.a2a4650b.chunk.js": "/pjy-portfolio/static/js/787.a2a4650b.chunk.js",
     "static/media/black_and_white_pjy.jpg": "/pjy-portfolio/static/media/black_and_white_pjy.2023554779490c37ee39.jpg",
     "static/media/pjy_portpolio.jpg": "/pjy-portfolio/static/media/pjy_portpolio.6ddf2289cf3cd8aa65a4.jpg",
-    "static/media/junyoung.JPG": "/pjy-portfolio/static/media/junyoung.25766113c820425f09aa.JPG",
+    "static/media/junyoung.jpg": "/pjy-portfolio/static/media/junyoung.25766113c820425f09aa.jpg",
+    "static/media/cocktable.jpg": "/pjy-portfolio/static/media/cocktable.39c3166a8012c898567a.jpg",
+    "static/media/the_titan.jpg": "/pjy-portfolio/static/media/the_titan.02bbdcbaa680fe6dd8c9.jpg",
+    "static/media/smile_invest.png": "/pjy-portfolio/static/media/smile_invest.69918a956aa5de117716.png",
     "static/media/reactLogo.png": "/pjy-portfolio/static/media/reactLogo.4f0224e1c0044341da30.png",
     "static/media/study.png": "/pjy-portfolio/static/media/study.2da69634fd2b9e350cd7.png",
+    "static/media/portfolio.png": "/pjy-portfolio/static/media/portfolio.8c7fe03a9114a140eead.png",
     "static/media/smile_invest_logo.png": "/pjy-portfolio/static/media/smile_invest_logo.4997347191811fc6ea57.png",
     "static/media/CSSLogo.png": "/pjy-portfolio/static/media/CSSLogo.cf6d58d18897825c0eda.png",
     "static/media/HTMLLogo.png": "/pjy-portfolio/static/media/HTMLLogo.8afa77d3550ea10de8f7.png",
     "static/media/brokenLight.png": "/pjy-portfolio/static/media/brokenLight.74513e54e894ad7cfd87.png",
     "static/media/light.png": "/pjy-portfolio/static/media/light.b54b902a42304c014e27.png",
     "static/media/figmaLogo.png": "/pjy-portfolio/static/media/figmaLogo.762bbe0db19dce3f2a83.png",
+    "static/media/oracleLogo.png": "/pjy-portfolio/static/media/oracleLogo.32c4d64f20b384f43d1e.png",
     "static/media/springLogo.png": "/pjy-portfolio/static/media/springLogo.5fda54abfc70b973ccb4.png",
+    "static/media/olives_project.png": "/pjy-portfolio/static/media/olives_project.e18c60848d9583fb5353.png",
     "static/media/switch_white.png": "/pjy-portfolio/static/media/switch_white.5fe5cd478f34c7826e38.png",
     "static/media/himedia.png": "/pjy-portfolio/static/media/himedia.2ce20999c9adcef164d7.png",
     "static/media/appleLogo.png": "/pjy-portfolio/static/media/appleLogo.dba21ed42eeee46fe0ca.png",
@@ -24,14 +30,16 @@
     "static/media/the_titan_logo.png": "/pjy-portfolio/static/media/the_titan_logo.70c345d002834fc240bf.png",
     "static/media/switch_dark_off.png": "/pjy-portfolio/static/media/switch_dark_off.588f2faeab7014e8f4e1.png",
     "static/media/javaLogo.png": "/pjy-portfolio/static/media/javaLogo.2be0bca1b95cfc0ce63e.png",
+    "static/media/nextjs.png": "/pjy-portfolio/static/media/nextjs.b189dde69b9b341cf065.png",
     "static/media/switch_dark_on.png": "/pjy-portfolio/static/media/switch_dark_on.f76ef501f7b5929633eb.png",
+    "static/media/muiLogo.png": "/pjy-portfolio/static/media/muiLogo.00947e6973d531bd83ee.png",
     "index.html": "/pjy-portfolio/index.html",
-    "main.115a5f76.css.map": "/pjy-portfolio/static/css/main.115a5f76.css.map",
-    "main.5ff75e07.js.map": "/pjy-portfolio/static/js/main.5ff75e07.js.map",
+    "main.5fedbb16.css.map": "/pjy-portfolio/static/css/main.5fedbb16.css.map",
+    "main.855a5ba7.js.map": "/pjy-portfolio/static/js/main.855a5ba7.js.map",
     "787.a2a4650b.chunk.js.map": "/pjy-portfolio/static/js/787.a2a4650b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.115a5f76.css",
-    "static/js/main.5ff75e07.js"
+    "static/css/main.5fedbb16.css",
+    "static/js/main.855a5ba7.js"
   ]
 }
