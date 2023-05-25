@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/pjy-portfolio/static/css/main.5fedbb16.css",
-    "main.js": "/pjy-portfolio/static/js/main.855a5ba7.js",
+    "main.js": "/pjy-portfolio/static/js/main.d84f9ef8.js",
     "static/js/787.a2a4650b.chunk.js": "/pjy-portfolio/static/js/787.a2a4650b.chunk.js",
     "static/media/black_and_white_pjy.jpg": "/pjy-portfolio/static/media/black_and_white_pjy.2023554779490c37ee39.jpg",
-    "static/media/pjy_portpolio.jpg": "/pjy-portfolio/static/media/pjy_portpolio.6ddf2289cf3cd8aa65a4.jpg",
+    "static/media/pjy_portfolio.jpg": "/pjy-portfolio/static/media/pjy_portfolio.6ddf2289cf3cd8aa65a4.jpg",
     "static/media/junyoung.jpg": "/pjy-portfolio/static/media/junyoung.25766113c820425f09aa.jpg",
     "static/media/cocktable.jpg": "/pjy-portfolio/static/media/cocktable.39c3166a8012c898567a.jpg",
     "static/media/the_titan.jpg": "/pjy-portfolio/static/media/the_titan.02bbdcbaa680fe6dd8c9.jpg",
@@ -35,11 +35,11 @@
     "static/media/muiLogo.png": "/pjy-portfolio/static/media/muiLogo.00947e6973d531bd83ee.png",
     "index.html": "/pjy-portfolio/index.html",
     "main.5fedbb16.css.map": "/pjy-portfolio/static/css/main.5fedbb16.css.map",
-    "main.855a5ba7.js.map": "/pjy-portfolio/static/js/main.855a5ba7.js.map",
+    "main.d84f9ef8.js.map": "/pjy-portfolio/static/js/main.d84f9ef8.js.map",
     "787.a2a4650b.chunk.js.map": "/pjy-portfolio/static/js/787.a2a4650b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fedbb16.css",
-    "static/js/main.855a5ba7.js"
+    "static/js/main.d84f9ef8.js"
   ]
 }
