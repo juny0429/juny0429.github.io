@@ -4,7 +4,7 @@ import theTitanLogo from '../resources/images/project_img/the_titan_logo.png';
 import theTitan from '../resources/images/project_img/the_titan.jpg';
 import smileInvestLogo from '../resources/images/project_img/smile_invest_logo.png';
 import smileInvest from '../resources/images/project_img/smile_invest.png';
-import pjyImg from '../resources/images/project_img/pjy_portpolio.jpg';
+import pjyImg from '../resources/images/project_img/pjy_portfolio.jpg';
 import portfolio from '../resources/images/project_img/portfolio.png';
 import olivesLogo from '../resources/images/project_img/olives_project.png';
 import cocktable from '../resources/images/project_img/cocktable.jpg';
@@ -128,7 +128,7 @@ function Project() {
             imgSrc: pjyImg,
             capture: portfolio,
             bgColor: "",
-            title: "PJY Portpolio",
+            title: "PJY Portfolio",
             date: "23.03.24 ~ 23.03.29",
             people: "1",
             info: [
