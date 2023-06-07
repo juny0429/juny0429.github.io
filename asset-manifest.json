@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pjy-portfolio/static/css/main.5fedbb16.css",
-    "main.js": "/pjy-portfolio/static/js/main.d84f9ef8.js",
+    "main.css": "/pjy-portfolio/static/css/main.00e6a9af.css",
+    "main.js": "/pjy-portfolio/static/js/main.efc7bc2e.js",
     "static/js/787.a2a4650b.chunk.js": "/pjy-portfolio/static/js/787.a2a4650b.chunk.js",
     "static/media/black_and_white_pjy.jpg": "/pjy-portfolio/static/media/black_and_white_pjy.2023554779490c37ee39.jpg",
     "static/media/pjy_portfolio.jpg": "/pjy-portfolio/static/media/pjy_portfolio.6ddf2289cf3cd8aa65a4.jpg",
@@ -34,12 +34,12 @@
     "static/media/switch_dark_on.png": "/pjy-portfolio/static/media/switch_dark_on.f76ef501f7b5929633eb.png",
     "static/media/muiLogo.png": "/pjy-portfolio/static/media/muiLogo.00947e6973d531bd83ee.png",
     "index.html": "/pjy-portfolio/index.html",
-    "main.5fedbb16.css.map": "/pjy-portfolio/static/css/main.5fedbb16.css.map",
-    "main.d84f9ef8.js.map": "/pjy-portfolio/static/js/main.d84f9ef8.js.map",
+    "main.00e6a9af.css.map": "/pjy-portfolio/static/css/main.00e6a9af.css.map",
+    "main.efc7bc2e.js.map": "/pjy-portfolio/static/js/main.efc7bc2e.js.map",
     "787.a2a4650b.chunk.js.map": "/pjy-portfolio/static/js/787.a2a4650b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fedbb16.css",
-    "static/js/main.d84f9ef8.js"
+    "static/css/main.00e6a9af.css",
+    "static/js/main.efc7bc2e.js"
   ]
 }
