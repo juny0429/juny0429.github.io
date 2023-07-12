@@ -1,0 +1,89 @@
+{
+    "skillsTOP":[
+        {
+          "logo": "reactLogo",
+          "title": "React",
+          "url": "/images/logos/reactLogo.png",
+          "contents": [
+            "Component, JSX, props, state 개념 이해",
+            "React Router, SPA 이해",
+            "Hooks 함수형 컴포넌트 상태관리"
+          ]
+        },
+        {
+            "logo": "typescriptLogo",
+            "title": "TypeScript",
+            "url": "/images/logos/typescriptLogo.png",
+            "contents": [
+              "타입스트립트의 개념과 특징",
+              "타입스크립트를 활용한 프로젝트 진행중"
+            ]
+        },
+        {
+          "logo": "HTMLogo",
+          "title": "HTML",
+          "url": "/images/logos/HTMLLogo.png",
+          "contents": [
+            "HTML 기본 구조와 태그 개념",
+            "마크업, 페이지 구조화, 폼요소",
+            "테이블 생성과 데이터 표시"
+          ]
+        },
+        {
+          "logo": "CSSLogo",
+          "title": "CSS",
+          "url": "/images/logos/CSSLogo.png",
+          "contents": [
+            "Layout, 배경 스타일링",
+            "텍스트 스타일링, 애니메이션"
+          ]
+        },
+        {
+          "logo": "javascriptLogo",
+          "title": "JavaScript",
+          "url": "/images/logos/javascriptLogo.png",
+          "contents": [
+            "ES6 추가 문법, Babel",
+            "Document Object Model, 비동기처리"
+          ]
+        }
+    ],
+    "skillsBOTTOM":[
+        {
+            "logo": "bootstrapLogo",
+            "title": "Bootstrap",
+            "url": "/images/logos/bootstrapLogo.png",
+            "contents": [
+              "레이아웃, 버튼, 입력창, 테이블 등 디자인 사용"
+            ]
+        },
+        {
+            "logo": "githubLogo",
+            "title": "GitHub",
+            "url": "/images/logos/githubLogo.png",
+            "contents": [
+              "마일스톤 및 이슈 관리, 프로젝트 코드 관리",
+              "기본사용법(commit/push/fetch/put) 사용"
+            ]
+        },
+        {
+            "logo": "appleLogo",
+            "title": "macOS",
+            "url": "/images/logos/appleLogo.png",
+            "contents": [
+              "macOS 환경속 프로젝트 진행",
+              "docker를 이용한 Oracle DB 구축",
+              "Swift 기본 문법"
+            ]
+        },
+        {
+            "logo": "figmaLogo",
+            "title": "Figma",
+            "url": "/images/logos/figmaLogo.png",
+            "contents": [
+              "기본 사용법 및 애니메이션 제작",
+              "컴포넌트, 스타일, 아이콘 등을 포함한 디자인 시스템을 구축"
+            ]
+        }
+    ]
+}

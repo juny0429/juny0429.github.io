@@ -5,6 +5,7 @@ import { useState } from 'react';
 import React, { useEffect } from 'react';
 
 function Main() {
+  
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [showImage, setShowImage] = useState(false);
 
