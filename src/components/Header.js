@@ -1,48 +1,29 @@
+import { Link } from 'react-router-dom';
 import headerStyle from '../resources/css/components/Header.module.css';
 
 function Header() {
-  
-  const onClickHomeHandler = () => {
-    window.location.href = "/pjy-portfolio/home";
-  }
-
-  const onClickAboutHandler = () => {
-    window.location.href = "/pjy-portfolio/about";
-  }
-
-  const onClickSkillsHandler = () => {
-    window.location.href = "/pjy-portfolio/skills";
-  }
-
-  const onClickProjectHandler = () => {
-    window.location.href = "/pjy-portfolio/project";
-  }
-  
-  const onClickcontactHandler = () => {
-    window.location.href = "/pjy-portfolio/contact";
-  }
 
   return (
     <header>
       <div className={headerStyle.navMain}>
         <div className={headerStyle.navBlock}>
-          <span className={headerStyle.navText} onClick={onClickHomeHandler}>Home</span>
+          <Link to="/home" className={headerStyle.navText}>Home</Link>
           <div className={headerStyle.underLine}></div>
         </div>
         <div className={headerStyle.navBlock}>
-          <span className={headerStyle.navText}  onClick={onClickAboutHandler}>About</span>
+          <Link to="/about" className={headerStyle.navText}>About</Link>
           <div className={headerStyle.underLine}></div>
         </div>
         <div className={headerStyle.navBlock}>
-          <span className={headerStyle.navText}  onClick={onClickSkillsHandler}>Skills</span>
+          <Link to="/skills" className={headerStyle.navText}>Skills</Link>
           <div className={headerStyle.underLine}></div>
         </div>
         <div className={headerStyle.navBlock}>
-          <span className={headerStyle.navText}  onClick={onClickProjectHandler}>Project</span>
+          <Link to="/project" className={headerStyle.navText}>Project</Link>
           <div className={headerStyle.underLine}></div>
         </div>
         <div className={headerStyle.navBlock}>
-          <span className={headerStyle.navText}  onClick={onClickcontactHandler}>Contact</span>
+          <Link to="/pjy-portfolio/contact" className={headerStyle.navText}>Contact</Link>
           <div className={headerStyle.underLine}></div>
         </div>
       </div>
