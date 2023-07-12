@@ -103,7 +103,7 @@ function Home() {
                     className={headerStyle.bulbImg} 
                     onClick={bulbBrokenhandler} 
                     src={(darkModeClass === 0 && bulbBroken === 1) ? brokenLight : ((darkModeClass === 1 && bulbBroken === 0) ? light : "")} 
-                    alt='전구 이미지'
+                    alt=""
                 />
             </div>
 
