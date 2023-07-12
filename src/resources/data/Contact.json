@@ -1,0 +1,30 @@
+
+{
+    "contect":[
+        {
+            "title": "PHONE", 
+            "info": "010-4195-1928", 
+            "isHovering": false 
+        },
+        { 
+            "title": "EMAIL", 
+            "info": "juny_0429@naver.com", 
+            "isHovering": false 
+        },
+        { 
+            "title": "VELOG", 
+            "info": "velog.io/@juny_0429", 
+            "link": "https://velog.io/@juny_0429" 
+        },
+        { 
+            "title": "GITHUB", 
+            "info": "github.com/juny0429", 
+            "link": "https://github.com/juny0429" 
+        },
+        { 
+            "title": "NOTION", 
+            "info": "notion study log",
+            "link":"https://elastic-network-b5d.notion.site/Park-s-DevNote-cfb53ea770cc4828a2aad5e97b5fd968" 
+        }
+    ]
+}

@@ -1,19 +1,13 @@
 import contactStyle from "../resources/css/pages/Contact.module.css";
 import pageTitleStyle from '../resources/css/components/PageTitle.module.css';
+import contactData from '../resources/data/Contact.json';
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Contact() {
 
-    /* 내 연락처와 링크 */
-    const [contactInfo, setContactInfo] = useState([
-        { title: "PHONE", info: "010-4195-1928", isHovering: false },
-        { title: "EMAIL", info: "juny_0429@naver.com", isHovering: false },
-        { title: "VELOG", info: "velog.io/@juny_0429", link: "https://velog.io/@juny_0429" },
-        { title: "GITHUB", info: "github.com/juny0429", link: "https://github.com/juny0429" },
-        { title: "NOTION", info: "notion study log", link:"https://elastic-network-b5d.notion.site/Park-s-DevNote-cfb53ea770cc4828a2aad5e97b5fd968" },
-    ]);
+    const [contactInfo, setContactInfo] = useState(contactData.contect);
 
     /* 마우스 오버 이벤트 */
     const handleMouseOver = (index) => {

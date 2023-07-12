@@ -23,7 +23,7 @@ function Header() {
           <div className={headerStyle.underLine}></div>
         </div>
         <div className={headerStyle.navBlock}>
-          <Link to="/pjy-portfolio/contact" className={headerStyle.navText}>Contact</Link>
+          <Link to="/contact" className={headerStyle.navText}>Contact</Link>
           <div className={headerStyle.underLine}></div>
         </div>
       </div>
