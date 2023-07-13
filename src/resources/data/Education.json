@@ -1,0 +1,42 @@
+{
+    "educationDataList":[
+        {
+          "titlePlace": "개인 스터디 기록",
+          "titleText": "프론트엔드 개발자가 되기 위해 공부중",
+          "titleDate": "2023.03 ~ ",
+          "logo": "studyLogo",
+          "url": "/images/education_img/study.png",
+          "content": [
+            "TypeScript 기초 공부 및 프로젝트 리펙토링",
+            "Notion과 Velog에 배운것들을 정리하며 기록",
+            "정보처리기사 필기 준비",
+            "Swift 언어 기초 문법 독학"
+          ]
+        },
+        {
+          "titlePlace": "하이미디어아카데미 인재개발원",
+          "titleText": "React.js 와 Springboot 를 활용한 자바 풀스택 개발자",
+          "titleDate": "2022.10 ~ 2023.03",
+          "logo": "himediaLogo",
+          "url": "/images/education_img/himedia.png",
+          "content": [
+            "6개월 간 진행한 k-트레이닝 풀스택 개발자 과정",
+            "스프링부트 기반의 Rest API 서버를 연동한 React.js SPA 애플리케이션 개발 및 클라우드서버 배포 프로젝트 진행",
+            "스프링부트와 마이바티스를 활용한 MVC Model2 기반 풀스택 웹 애플리케이션 프로젝트 진행",
+            "자바, 데이터베이스 기초부터 시작하여 React.js를 활용한 SPA 애플리케이션 개발"
+          ]
+        },
+        {
+          "titlePlace": "그린컴퓨터아트학원",
+          "titleText": "[웹코딩] UIUX반응형디자인(웹표준,HTML5, CSS)프론트엔드(퍼블리셔)개발자",
+          "titleDate": "2022.07 ~ 2022.08",
+          "logo": "greenLogo",
+          "url": "/images/education_img/green.png",
+          "content": [
+            "웹페이지의 구조를 만들기 위한 HTML 기초 문법과 태그종류별 작성법",
+            "HTML5 표준 웹기술을 바탕으로 문서의 구조를 제작하는 방법",
+            "웹문서를 표현하기 위한 CSS의 문법을 익히고, 다양한 레이아웃기법과 디자인적인 요소들을 표현하여 동적이면서 웹표준화된 페이지를 구현"
+          ]
+        }
+    ]
+}
