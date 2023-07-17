@@ -1,4 +1,4 @@
-import mainStyle from '../resources/css/Main.module.css';
+import mainStyle from '../resources/css/pages/Main.module.scss';
 import mainImage from '../resources/images/black_and_white_pjy.jpg';
 
 import { useState } from 'react';

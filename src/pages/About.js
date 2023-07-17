@@ -1,5 +1,5 @@
-import aboutStyle from '../resources/css/pages/About.module.css';
-import pageTitleStyle from '../resources/css/components/PageTitle.module.css';
+import aboutStyle from '../resources/css/pages/About.module.scss';
+import pageTitleStyle from '../resources/css/components/PageTitle.module.scss';
 
 import junyoungImg from '../resources/images/junyoung.jpg';
 

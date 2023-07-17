@@ -1,4 +1,4 @@
-import projectStyle from '../resources/css/pages/Project.module.css';
+import projectStyle from '../resources/css/pages/Project.module.scss';
 
 import theTitanLogo from '../resources/images/project_img/the_titan_logo.png';
 import theTitan from '../resources/images/project_img/the_titan.jpg';
@@ -72,7 +72,7 @@ function ProjectItemFilled({imgSrc, title, date, people, info, bgColor, tools, c
         <div>
             <div className={projectStyle.projectFilledItem} style={{ backgroundColor: bgColor }}>
                 <div className={projectStyle.projectFilledItemImg} style={{ backgroundColor: bgColor }} >
-                    <img className={projectStyle.projectFilledItemMainImg} src={capture} alt='로고'/>
+                    <img src={capture} alt='로고'/>
                 </div>
 
                 <div className={projectStyle.projectFilledTitle}>

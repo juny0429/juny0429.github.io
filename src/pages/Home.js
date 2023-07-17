@@ -1,6 +1,6 @@
-import homeStyle from '../resources/css/pages/Home.module.css';
-import headerStyle from '../resources/css/components/Header.module.css';
-import darkMode from '../resources/css/components/DarkMode.module.css';
+import homeStyle from '../resources/css/pages/Home.module.scss';
+import headerStyle from '../resources/css/components/Header.module.scss';
+import darkMode from '../resources/css/components/DarkMode.module.scss';
 
 import swtichWhiteImg from '../resources/images/switch_white.png';
 import swtichDarkOffImg from '../resources/images/switch_dark_off.png';

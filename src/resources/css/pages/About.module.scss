@@ -8,13 +8,13 @@
   display: flex;
 }
 
-/* 본문 이미지 */
+// 본문 이미지
 .pjyImg {
   width: 25%;
-}
 
-.pjyImg img {
-  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 /* 본문 */

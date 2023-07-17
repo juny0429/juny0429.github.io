@@ -1,5 +1,5 @@
-import contactStyle from "../resources/css/pages/Contact.module.css";
-import pageTitleStyle from '../resources/css/components/PageTitle.module.css';
+import contactStyle from "../resources/css/pages/Contact.module.scss";
+import pageTitleStyle from '../resources/css/components/PageTitle.module.scss';
 import contactData from '../resources/data/Contact.json';
 
 import React, { useState } from "react";

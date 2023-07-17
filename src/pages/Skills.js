@@ -1,5 +1,5 @@
-import skillStyle from '../resources/css/pages/Skills.module.css';
-import pageTitleStyle from '../resources/css/components/PageTitle.module.css';
+import skillStyle from '../resources/css/pages/Skills.module.scss';
+import pageTitleStyle from '../resources/css/components/PageTitle.module.scss';
 import SkillsData from '../resources/data/Skills.json';
 import educationData from '../resources/data/Education.json';
 
