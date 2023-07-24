@@ -2,12 +2,6 @@ import homeStyle from '../resources/css/pages/Home.module.scss';
 import headerStyle from '../resources/css/components/Header.module.scss';
 import darkMode from '../resources/css/components/DarkMode.module.scss';
 
-import swtichWhiteImg from '../resources/images/switch_white.png';
-import swtichDarkOffImg from '../resources/images/switch_dark_off.png';
-import swtichDarkOnImg from '../resources/images/switch_dark_on.png';
-import light from '../resources/images/light.png';
-import brokenLight from '../resources/images/brokenLight.png';
-
 import { useState } from 'react';
 import React from 'react';
 
@@ -102,7 +96,7 @@ function Home() {
                 <img 
                     className={headerStyle.bulbImg} 
                     onClick={bulbBrokenhandler} 
-                    src={(darkModeClass === 0 && bulbBroken === 1) ? brokenLight : ((darkModeClass === 1 && bulbBroken === 0) ? light : "")} 
+                    src={(darkModeClass === 0 && bulbBroken === 1) ? "./images/brokenLight.png" : ((darkModeClass === 1 && bulbBroken === 0) ? "./images/light.png" : "")} 
                     alt=""
                 />
             </div>
@@ -111,7 +105,7 @@ function Home() {
                 <img 
                     className={headerStyle.switchImg} 
                     onClick={handleToggleDarkMode} 
-                    src={(darkModeClass === 0 && bulbBroken === 0) ? swtichDarkOffImg :((darkModeClass === 0 && bulbBroken === 1) ? swtichDarkOnImg : swtichWhiteImg)} 
+                    src={(darkModeClass === 0 && bulbBroken === 0) ? "./images/switch_dark_off.png" :((darkModeClass === 0 && bulbBroken === 1) ? "./images/switch_dark_on.png" : "./images/switch_white.png")} 
                     alt="스위치 이미지"
                 />
             </div>

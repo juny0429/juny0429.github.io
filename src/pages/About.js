@@ -1,8 +1,6 @@
 import aboutStyle from '../resources/css/pages/About.module.scss';
 import pageTitleStyle from '../resources/css/components/PageTitle.module.scss';
 
-import junyoungImg from '../resources/images/junyoung.jpg';
-
 function About() {
 
     return (
@@ -13,7 +11,7 @@ function About() {
             <div className={aboutStyle.aboutContant}>
                 <div className={aboutStyle.pjyImg}>
                     <img
-                        src={junyoungImg} 
+                        src="./images/junyoung.jpg"
                         alt="박준영 사진"
                     />
                 </div>

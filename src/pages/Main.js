@@ -1,5 +1,4 @@
 import mainStyle from '../resources/css/pages/Main.module.scss';
-import mainImage from '../resources/images/black_and_white_pjy.jpg';
 
 import { useState } from 'react';
 import React, { useEffect } from 'react';
@@ -24,7 +23,7 @@ function Main() {
   useEffect(() => {
     const img = new Image();
     img.onload = () => setShowImage(true);
-    img.src = mainImage;
+    img.src = process.env.PUBLIC_URL + "/images/black_and_white_pjy.jpg";
   }, []);
 
   const imageStyle = {
@@ -35,7 +34,7 @@ function Main() {
     width: '300px',
     height: '300px',
     zIndex: 99999,
-    backgroundImage: `url(${mainImage})`,
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/black_and_white_pjy.jpg)`,
     backgroundPosition: `${mousePosition.x + 200}px ${-(mousePosition.y - window.innerHeight - 300)}px`,
     backgroundSize: '650%',
     opacity: showImage ? 1 : 0,
