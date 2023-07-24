@@ -3,8 +3,6 @@ import pageTitleStyle from '../resources/css/components/PageTitle.module.scss';
 import SkillsData from '../resources/data/Skills.json';
 import educationData from '../resources/data/Education.json';
 
-import arrowIcon from '../resources/images/icon/arrow_icon3.png';
-
 import React, { useState, useEffect } from 'react';
 
 function renderSkillBlocks(skills, blockClassName) {
@@ -139,7 +137,7 @@ function Skills() {
                 className={skillStyle.scrollTopIcon}
                 onClick={scrollToTop}
                 style={{ display: isVisible ? 'block' : 'none' }}
-                src={arrowIcon}
+                src="./images/icon/arrow_icon3.png"
                 alt='화살표 아이콘'
             />
         </div>

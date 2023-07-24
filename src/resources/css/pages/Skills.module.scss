@@ -167,21 +167,6 @@
     }
   }
 
-  /* 스크롤바의 너비와 색상 설정 */
-  ::-webkit-scrollbar {
-    width: 5px;
-    height: 15px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background-color: #181818;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: rgba(245, 222, 179, 0.833);
-    border-radius: 5px;
-  }
-
   .scrollTopIcon {
     width: 30px;
     padding: 2%;

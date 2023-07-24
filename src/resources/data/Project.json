@@ -1,0 +1,87 @@
+{
+    "projectsList": [
+        {
+            "projectTeamLogoUrl": "/images/project_img/olives_project.png",
+            "captureUrl": "/images/project_img/cocktable.jpg",
+            "bgColor": "#9E964D",
+            "title": "Cocktable(칵테일 테이블오더 어플리케이션)",
+            "date": "23.04.27 ~ 진행중",
+            "people": "2",
+            "githubUrl": "https://github.com/Green-0lives",
+            "info": [
+                "기존의 칵테일 주문 방식은 메뉴판을 봐도 어떤 맛일지 상상하기 어려웠고,",
+                "맛을 잘 모르는 칵테일에 경우 실망하기도 했습니다.", 
+                "커스텀 기능을 통해 나만의 칵테일을 주문하고, 손님들은 예상치 못한 맛이 아닌,",
+                "자신의 입맛에 딱 맞는 칵테일을 즐길 수 있게 될 것입니다."
+            ],
+            "tools": [
+                "/images/logos/reactLogo.png",
+                "/images/logos/typescriptLogo.png",
+                "/images/logos/oracleLogo.png",
+                "/images/logos/figmaLogo.png",
+                "/images/logos/githubLogo.png"
+            ]
+        },
+        {
+            "projectTeamLogoUrl": "/images/project_img/pjy_portfolio.jpg",
+            "captureUrl": "/images/project_img/portfolio.png",
+            "bgColor": "",
+            "title": "PJY Portfolio",
+            "date": "23.03.24 ~ 23.03.29",
+            "people": "1",
+            "githubUrl": "https://github.com/juny0429/pjy-portfolio",
+            "info": [
+                "나를 어떻게하면 간결하고 임팩트있게 보여줄수 있을까? 를 생각하며 작업했습니다.", 
+                "각 페이지별 애니메이션 기능을 활용한 디자인 구현이 특징입니다."
+            ],
+            "tools": [
+                "/images/logos/reactLogo.png",
+                "/images/logos/figmaLogo.png",
+                "/images/logos/githubLogo.png"
+            ]
+        },
+        {
+            "projectTeamLogoUrl": "/images/project_img/the_titan_logo.png",
+            "captureUrl": "/images/project_img/the_titan.jpg",
+            "bgColor": "#b66044",
+            "title": "the titan(인사관리 그룹웨어)",
+            "date": "23.01.17 ~ 23.03.22",
+            "people": "6",
+            "githubUrl": "https://github.com/orgs/2TeamHR/repositories",
+            "info": [
+                "인사관리 그룹웨어를 주제로한 프로젝트입니다.", 
+                "스프링부트 기반의 RestAPI 서버를 연동한 React.jsSPA 애플리케이션이 특징입니다."
+            ],
+            "tools": [
+                "/images/logos/reactLogo.png",
+                "/images/logos/muiLogo.png",
+                "/images/logos/springLogo.png",
+                "/images/logos/oracleLogo.png",
+                "/images/logos/figmaLogo.png",
+                "/images/logos/githubLogo.png"
+            ]
+        },
+        {
+            "projectTeamLogoUrl": "/images/project_img/smile_invest_logo.png",
+            "captureUrl": "/images/project_img/smile_invest.png",
+            "bgColor": "#F3DD72",
+            "title": "smlie invest(크라우드 펀딩 사이트)",
+            "date": "22.12.05 ~ 23.01.13",
+            "people": "7",
+            "githubUrl": "https://github.com/smile-invest/smile-invest",
+            "info": [
+                "반려동물을 주제로 한 클라우드 펀딩 프로젝트입니다.", 
+                "스프링부트와 마이바티스를 활용한 MVC Model2 기반으로 구현 했습니다."
+            ],
+            "tools": [
+                "/images/logos/HTMLLogo.png",
+                "/images/logos/CSSLogo.png",
+                "/images/logos/bootstrapLogo.png",
+                "/images/logos/springLogo.png",
+                "/images/logos/oracleLogo.png",
+                "/images/logos/figmaLogo.png",
+                "/images/logos/githubLogo.png"
+            ]
+        }
+    ]      
+}
