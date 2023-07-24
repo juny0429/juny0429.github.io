@@ -1,13 +1,22 @@
 import projectItemFilledStyle from '../resources/css/components/ProjectItemFilled.module.scss';
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function ProjectItemFilled({projectTeamLogoUrl, title, date, people, info, bgColor, tools, captureUrl}) {
+function ProjectItemFilled({projectTeamLogoUrl, title, date, people, info, bgColor, tools, captureUrl, githubUrl}) {
 
     return (
         <div>
             <div className={projectItemFilledStyle.projectFilledItem} style={{ backgroundColor: bgColor }}>
                 <div className={projectItemFilledStyle.projectFilledItemImg} style={{ backgroundColor: bgColor }} >
+                    <Link to={githubUrl} className={projectItemFilledStyle.codeView}>
+                        <span>code view</span>
+                        <img
+                            className={projectItemFilledStyle.eyeIcon}
+                            src="./images/icon/eye_icon.png"
+                            alt="눈 아이콘"
+                        />
+                    </Link>
                     <img src={process.env.PUBLIC_URL + captureUrl} alt='로고'/>
                 </div>
 

@@ -143,6 +143,7 @@ function Project() {
                                     info={project.info}
                                     tools={project.tools}
                                     captureUrl={project.captureUrl}
+                                    githubUrl={project.githubUrl}
                                 />
                             ))}
                         </div>

@@ -47,3 +47,30 @@
     margin: 1% 1% 1% 1%;
     border-radius: 5px;
 }
+
+/* code view */
+.codeView {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 40% 1% 40%;
+    padding: 0.5%;
+    text-decoration-line: none;
+    transition: transform 0.3s;
+
+    span {
+        font-size: 2rem;
+        margin: 0;
+        color: rgba(255, 255, 255, 0.679);
+    }
+
+    .eyeIcon {
+        margin-left: 5%;
+        width: 30px;
+    }
+
+    &:hover {
+        // border: 1px solid #19ffd9;
+        transform: scale(1.2);
+    }
+}
